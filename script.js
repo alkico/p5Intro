@@ -33,28 +33,15 @@ function draw() {
   }
   if (keyIsDown(38)) {
     yCord -= 10;
-
     console.log("arrow up");
   }
   if (keyIsDown(39)) {
     xCord += 10;
-
     console.log("arrow right");
   }
   if (keyIsDown(37)) {
     xCord -= 10;
-
     console.log("arrow left");
-  }
-  console.log(mouseIsPressed);
-  if (mouseIsPressed) {
-    H++;
-    W++;
-    xCord = mouseX;
-    yCord = mouseY;
-  } else {
-    H--;
-    W--;
   }
 }
 
